@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22613AA5217D10EA0045554D /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA4217D10EA0045554D /* CurvedView.swift */; };
+		22613AA7217D19EE0045554D /* DemoCurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA6217D19EE0045554D /* DemoCurvedView.swift */; };
 		22615CCB217D0369005C8DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22615CCA217D0369005C8DE9 /* AppDelegate.swift */; };
 		22615CCD217D0369005C8DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22615CCC217D0369005C8DE9 /* ViewController.swift */; };
 		22615CD0217D0369005C8DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22615CCE217D0369005C8DE9 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22613AA4217D10EA0045554D /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		22613AA6217D19EE0045554D /* DemoCurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCurvedView.swift; sourceTree = "<group>"; };
 		22615CC7217D0369005C8DE9 /* StockCurrencyMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockCurrencyMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22615CCA217D0369005C8DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22615CCC217D0369005C8DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				22615CD1217D036E005C8DE9 /* Assets.xcassets */,
 				22615CD3217D036E005C8DE9 /* LaunchScreen.storyboard */,
 				22615CD6217D036E005C8DE9 /* Info.plist */,
+				22613AA4217D10EA0045554D /* CurvedView.swift */,
+				22613AA6217D19EE0045554D /* DemoCurvedView.swift */,
 			);
 			path = StockCurrencyMonitorApp;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22613AA7217D19EE0045554D /* DemoCurvedView.swift in Sources */,
 				22615CCD217D0369005C8DE9 /* ViewController.swift in Sources */,
+				22613AA5217D10EA0045554D /* CurvedView.swift in Sources */,
 				22615CCB217D0369005C8DE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
