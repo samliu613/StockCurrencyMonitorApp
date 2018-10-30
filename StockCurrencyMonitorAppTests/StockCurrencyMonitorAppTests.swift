@@ -10,19 +10,23 @@ import XCTest
 @testable import StockCurrencyMonitorApp
 
 class StockCurrencyMonitorAppTests: XCTestCase {
+    let sut = ViewController()
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    func test_API() {
-        let vc = ViewController()
-        XCTAssertNotNil(vc.parsedData)
+    func test_shouldDataLoadedFromAPI() {
+        let expectation = XCTestExpectation(description: "XXX")
+        sut
+        
     }
     
 }
+
 
