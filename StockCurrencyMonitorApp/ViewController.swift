@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         task.resume()
     }
 */
-    
+    // UPdate
     @IBAction func update(_ sender: Any) {
 
         currencyGetter()
