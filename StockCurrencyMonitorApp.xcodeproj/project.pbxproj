@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22597B8A218DC5CB001C4DA8 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22597B89218DC5CB001C4DA8 /* SettingTableViewController.swift */; };
 		22613AA5217D10EA0045554D /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA4217D10EA0045554D /* CurvedView.swift */; };
 		22613AA7217D19EE0045554D /* DemoCurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA6217D19EE0045554D /* DemoCurvedView.swift */; };
 		22613AA9217FA9920045554D /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA8217FA9920045554D /* DataStructure.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22597B89218DC5CB001C4DA8 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		22613AA4217D10EA0045554D /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
 		22613AA6217D19EE0045554D /* DemoCurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCurvedView.swift; sourceTree = "<group>"; };
 		22613AA8217FA9920045554D /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
@@ -74,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22597B8B218DC5ED001C4DA8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				22615CD3217D036E005C8DE9 /* LaunchScreen.storyboard */,
+				22615CCA217D0369005C8DE9 /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		22615CBE217D0369005C8DE9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,12 +106,12 @@
 		22615CC9217D0369005C8DE9 /* StockCurrencyMonitorApp */ = {
 			isa = PBXGroup;
 			children = (
-				22615CCA217D0369005C8DE9 /* AppDelegate.swift */,
 				22615CCC217D0369005C8DE9 /* MonitorViewController.swift */,
+				22597B8B218DC5ED001C4DA8 /* Support */,
+				22597B89218DC5CB001C4DA8 /* SettingTableViewController.swift */,
+				22615CD6217D036E005C8DE9 /* Info.plist */,
 				22615CCE217D0369005C8DE9 /* Main.storyboard */,
 				22615CD1217D036E005C8DE9 /* Assets.xcassets */,
-				22615CD3217D036E005C8DE9 /* LaunchScreen.storyboard */,
-				22615CD6217D036E005C8DE9 /* Info.plist */,
 				22613AA4217D10EA0045554D /* CurvedView.swift */,
 				22613AA6217D19EE0045554D /* DemoCurvedView.swift */,
 				22613AA8217FA9920045554D /* DataStructure.swift */,
@@ -219,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22597B8A218DC5CB001C4DA8 /* SettingTableViewController.swift in Sources */,
 				22613AA7217D19EE0045554D /* DemoCurvedView.swift in Sources */,
 				22615CCD217D0369005C8DE9 /* MonitorViewController.swift in Sources */,
 				22613AA9217FA9920045554D /* DataStructure.swift in Sources */,
