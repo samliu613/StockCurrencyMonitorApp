@@ -11,7 +11,7 @@
 		22613AA7217D19EE0045554D /* DemoCurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA6217D19EE0045554D /* DemoCurvedView.swift */; };
 		22613AA9217FA9920045554D /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613AA8217FA9920045554D /* DataStructure.swift */; };
 		22615CCB217D0369005C8DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22615CCA217D0369005C8DE9 /* AppDelegate.swift */; };
-		22615CCD217D0369005C8DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22615CCC217D0369005C8DE9 /* ViewController.swift */; };
+		22615CCD217D0369005C8DE9 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22615CCC217D0369005C8DE9 /* MonitorViewController.swift */; };
 		22615CD0217D0369005C8DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22615CCE217D0369005C8DE9 /* Main.storyboard */; };
 		22615CD2217D036E005C8DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22615CD1217D036E005C8DE9 /* Assets.xcassets */; };
 		22615CD5217D036E005C8DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22615CD3217D036E005C8DE9 /* LaunchScreen.storyboard */; };
@@ -46,7 +46,7 @@
 		22613AA8217FA9920045554D /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
 		22615CC7217D0369005C8DE9 /* StockCurrencyMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockCurrencyMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22615CCA217D0369005C8DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22615CCC217D0369005C8DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22615CCC217D0369005C8DE9 /* MonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewController.swift; sourceTree = "<group>"; };
 		22615CCF217D0369005C8DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22615CD1217D036E005C8DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22615CD4217D036E005C8DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				22615CCA217D0369005C8DE9 /* AppDelegate.swift */,
-				22615CCC217D0369005C8DE9 /* ViewController.swift */,
+				22615CCC217D0369005C8DE9 /* MonitorViewController.swift */,
 				22615CCE217D0369005C8DE9 /* Main.storyboard */,
 				22615CD1217D036E005C8DE9 /* Assets.xcassets */,
 				22615CD3217D036E005C8DE9 /* LaunchScreen.storyboard */,
@@ -220,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22613AA7217D19EE0045554D /* DemoCurvedView.swift in Sources */,
-				22615CCD217D0369005C8DE9 /* ViewController.swift in Sources */,
+				22615CCD217D0369005C8DE9 /* MonitorViewController.swift in Sources */,
 				22613AA9217FA9920045554D /* DataStructure.swift in Sources */,
 				22613AA5217D10EA0045554D /* CurvedView.swift in Sources */,
 				22615CCB217D0369005C8DE9 /* AppDelegate.swift in Sources */,
