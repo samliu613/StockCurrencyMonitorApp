@@ -8,18 +8,22 @@
 
 import Foundation
 
+// Define structure for currency data
 struct CurrencyData: Codable{
     let date: String
     let rates: Dictionary<String, Double>
     let base: String
 }
 
-//struct StockData: Codable {
-//    let MetaData: Dictionary<String, String>
-//    let 
-//    let TimeSeries: Dictionary<String, Dictionary>
-//    
-//}
-
+// Define structure for stock data
+struct StockData: Codable {
+    let MetaData: Dictionary<String, String>
+    let TimeSeries: Dictionary<String, Dictionary<String, String>>
+    
+    enum CodingKeys: String, CodingKey {
+        case MetaData = "Meta Data"
+        case TimeSeries = "Time Series (Daily)"
+    }
+}
 
 

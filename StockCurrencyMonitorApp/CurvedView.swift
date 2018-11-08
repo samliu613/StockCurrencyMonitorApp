@@ -36,5 +36,17 @@ class CurvedView: UIView {
         
         myBezier.fill()
     }
+    
+    // Draw a bezier to a specific point
+    func drawBezierTo(x:CGFloat, y:CGFloat) {
+        let bezier = UIBezierPath()
+        //bezier.move(to: CGPoint(x: 0, y: 0))
+        bezier.addLine(to: CGPoint(x: x, y: y))
+    }
+    
+    // Transform original coord to down left coord
+    func coordinateTransform() {
+        
+    }
 
 }
